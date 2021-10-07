@@ -1,0 +1,16 @@
+{
+  "name": "pruebaxddd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gbgratis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "libphonenumber-js": "^1.9.22",
+    "sync-request": "^6.1.0"
+  }
+}

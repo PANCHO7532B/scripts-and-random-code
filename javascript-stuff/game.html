@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>uwu</title>
+        <script>
+            var canvas;
+            var canvasContext;
+            var ballpositionX = 10;
+            var r1 = [
+                    "brown",
+                    "green",
+                    "blue"
+            ];
+            window.onload = function() {
+                canvas = document.getElementById("a01");
+                canvasContext = canvas.getContext('2d');
+                canvasContext.fillStyle = "black";
+                //0 = x, 0 = y, 0 = width, 0 = height
+                canvasContext.fillRect(0, 0, canvas.width, canvas.height);
+                setInterval(drawxd, 50);
+                console.log("uwu");
+            }
+            function drawxd() {
+                ballpositionX = ballpositionX + 5;
+                console.log("[INFO] - Function called! New ball pos: " + ballpositionX);
+                canvasContext.fillStyle = "black";
+                canvasContext.fillRect(0, 0, canvas.width, canvas.height);
+                canvasContext.fillStyle = "white";
+                canvasContext.fillRect(ballpositionX, 300, 10, 10);
+            }
+            /*function drawRandom() {
+                //canvasContext.fillStyle = "black";
+                //canvasContext.fillRect(0, 0, canvas.width, canvas.height);
+                canvasContext.fillStyle = r1[Math.round(Math.random()*r1.length)];
+                canvasContext.fillRect(Math.round(Math.random()*800), Math.round(Math.random()*600), 1, 1);
+            }*/
+        </script>
+    </head>
+    <body>
+        <!--<i>puto el que lo lea</i>-->
+        <canvas id="a01" height="600" width="800">
+        </canvas>
+    </body>
+</html>

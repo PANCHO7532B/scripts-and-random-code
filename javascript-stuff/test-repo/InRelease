@@ -1,0 +1,7 @@
+Origin: P7COMunications LLC
+Label: Linux-Repository
+Codename: stable
+Date: Tue, 22 Jun 2000 00:00:01 UTC
+Architectures: i386 amd64
+Components: main
+Description: Main Linux Repository for P7COMunications LLC related apps and projects.
